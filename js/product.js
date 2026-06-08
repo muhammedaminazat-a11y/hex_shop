@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       <img src="${product.image}" alt="${product.title}">
       <h2>${product.title}</h2>
       <p>${product.description}</p>
-      <h3>${product.price} $</h3>
+      <h3>${Math.round(product.price * 500)} ₸</h3>
       <button id="add-to-cart">Добавить в корзину</button>
     </div>
   `;
